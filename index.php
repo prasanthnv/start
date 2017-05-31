@@ -24,7 +24,7 @@ $THEME_FONT_URL = $SETTINGS['appearance']['font_url'];
 //print_r($SETTINGS);
 //echo "</pre>";
 $ip_address = getHostByName(getHostName());
-$directory = "./";
+$directory = "../";
 $handle = opendir($directory);
 $projectsListIgnore = array('.', '..');
 $PROJECTS = array();
